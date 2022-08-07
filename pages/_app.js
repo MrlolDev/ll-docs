@@ -1,7 +1,11 @@
 import "../styles/css/globals.css";
+import SideNav from "../components/sideNav";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+export default function Lolinck({ Component, pageProps }) {
+  return (
+    <>
+      <SideNav />
+      <Component {...pageProps} />;
+    </>
+  );
 }
-
-export default MyApp;

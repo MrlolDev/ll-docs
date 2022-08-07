@@ -1,0 +1,130 @@
+@use 'variables' as v;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  background: v.$grey_100;
+}
+
+// scrollbar styles
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: v.$grey_300;
+}
+
+::-webkit-scrollbar-thumb {
+  background: v.$red_100;
+
+  &:hover {
+    filter: brightness(1.2);
+  }
+}
+
+// nav  
+.sideNav {
+  width: 16rem;
+  height: 100vh;
+  background: v.$grey_200;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  padding-top: .75rem;
+  z-index: 1;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    padding-left: .75rem;
+
+  }
+
+  .sideNav_links {
+    padding-bottom: .5rem;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 1.1em;
+    gap: 1rem;
+
+    a {
+      color: v.$grey_50;
+      text-decoration: none;
+      transition: .5s;
+      display: flex;
+      gap: .5vw;
+      font-weight: bold;
+      align-items: center;
+
+      i {
+        font-size: .6em;
+      }
+
+      &:hover {
+        color: v.$red_100;
+      }
+    }
+  }
+
+  .sideNav_docs {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+
+    section {
+      display: flex;
+      flex-direction: column;
+
+      ul {
+        padding: 0;
+      }
+
+      h4 {
+        margin: 0;
+        // uppercase
+        padding-left: .75rem;
+        text-transform: uppercase;
+        color: v.$grey_50;
+        font-size: 20px;
+      }
+
+      a {
+        text-decoration: none;
+        color: v.$grey_50;
+        font-size: 18px;
+        transition: .5s all ease-in-out;
+        padding-left: 1.5rem;
+
+
+        &:hover {
+          color: v.$red_100;
+          border-radius: 2px;
+          border-left: 4px solid v.$red_100;
+        }
+
+        &.active {
+          color: v.$red_100;
+          transition: .3s;
+          border-left: 2px solid v.$red_100;
+        }
+      }
+
+      ul {
+        margin: 0;
+      }
+    }
+
+
+  }
+}

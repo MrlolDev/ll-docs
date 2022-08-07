@@ -1,4 +1,4 @@
-import { CopyBlock, atomOneDark } from "react-code-blocks";
+import { CopyBlock, dracula } from "react-code-blocks";
 
 export default function Code(options) {
   var code = options.code;
@@ -7,7 +7,7 @@ export default function Code(options) {
     <CopyBlock
       language={language}
       text={code}
-      theme={atomOneDark}
+      theme={dracula}
       showLineNumbers={true}
       wrapLines={true}
     />
