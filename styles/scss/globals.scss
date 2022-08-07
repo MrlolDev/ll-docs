@@ -75,7 +75,8 @@ main {
     transition: all .3s;
 
     &:hover {
-      color: v.$red_200;
+      text-decoration: underline;
+      filter: brightness(1.4);
     }
   }
 }

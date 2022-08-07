@@ -65,7 +65,8 @@ main a {
   transition: all 0.3s;
 }
 main a:hover {
-  color: #9C3636;
+  text-decoration: underline;
+  filter: brightness(1.4);
 }
 
 .sideNav .sideNav_open {
