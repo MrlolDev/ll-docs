@@ -1,1 +1,1 @@
-a
+import lolinck from lolinck.py
