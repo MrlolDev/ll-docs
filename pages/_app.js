@@ -5,7 +5,7 @@ export default function Lolinck({ Component, pageProps }) {
   return (
     <>
       <SideNav />
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
   );
 }

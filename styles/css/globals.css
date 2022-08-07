@@ -5,11 +5,12 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  overflow-x: hidden;
   color: #fff;
   background: #1c1c1d;
 }
 
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 0.5rem;
 }
 
@@ -24,8 +25,83 @@ body::-webkit-scrollbar {
   filter: brightness(1.2);
 }
 
-.sideNav {
-  width: 16rem;
+main {
+  position: absolute;
+  top: 2vw;
+  left: 18vw;
+  overflow: hidden;
+  width: 80vw;
+  height: fit-content;
+  padding-bottom: 4vh;
+}
+main h1 {
+  font-size: 2.25rem;
+  margin: 0;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+main h1:hover {
+  color: #BE4949;
+}
+main h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+main h3 {
+  font-size: 1.75rem;
+  margin: 0;
+}
+main h4 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+main p {
+  font-size: 1rem;
+  margin: 0;
+}
+main a {
+  color: #BE4949;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+main a:hover {
+  color: #9C3636;
+}
+
+.sideNav .sideNav_open {
+  background: #171717;
+  height: 100vh;
+  width: 3vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: #d0d5b7;
+  border-top-right-radius: 20rem;
+  border-right: 2px solid #BE4949;
+  border-bottom-right-radius: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sideNav .sideNav_open button {
+  background: none;
+  outline: none;
+  border: none;
+  color: #d0d5b7;
+  cursor: pointer;
+  font-size: 2rem;
+}
+.sideNav .sideNav_open button:hover {
+  color: #fff;
+}
+.sideNav .sideNav_open:hover {
+  color: #fff;
+}
+.sideNav.active {
+  width: 16vw;
   height: 100vh;
   background: #181918;
   color: #fff;
@@ -33,25 +109,41 @@ body::-webkit-scrollbar {
   top: 0;
   left: 0;
   overflow-y: auto;
-  padding-top: 0.75rem;
+  padding-bottom: 2rem;
+  border-right: 2px solid #BE4949;
+  padding-top: 0.25rem;
   z-index: 1;
 }
-.sideNav ul {
+.sideNav.active .sideNav_exit {
+  position: relative;
+  left: 0.25rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  background: none;
+  outline: none;
+  border: none;
+  color: #9C3636;
+}
+.sideNav.active .sideNav_exit:hover {
+  color: #BE4949;
+}
+.sideNav.active ul {
   list-style: none;
   padding: 0;
   padding-left: 0.75rem;
 }
-.sideNav .sideNav_links {
+.sideNav.active .sideNav_links {
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #BE4949;
   display: flex;
   flex-direction: column;
   margin: 0;
   margin-bottom: 1rem;
-  font-size: 1.1em;
+  font-size: 1.5em;
   gap: 1rem;
 }
-.sideNav .sideNav_links a {
+.sideNav.active .sideNav_links a {
   color: #d0d5b7;
   text-decoration: none;
   transition: 0.5s;
@@ -60,50 +152,149 @@ body::-webkit-scrollbar {
   font-weight: bold;
   align-items: center;
 }
-.sideNav .sideNav_links a i {
+.sideNav.active .sideNav_links a i {
   font-size: 0.6em;
 }
-.sideNav .sideNav_links a:hover {
+.sideNav.active .sideNav_links a:hover {
   color: #BE4949;
 }
-.sideNav .sideNav_docs {
+.sideNav.active .sideNav_docs {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
 }
-.sideNav .sideNav_docs section {
+.sideNav.active .sideNav_docs section {
   display: flex;
   flex-direction: column;
 }
-.sideNav .sideNav_docs section ul {
+.sideNav.active .sideNav_docs section ul {
   padding: 0;
 }
-.sideNav .sideNav_docs section h4 {
+.sideNav.active .sideNav_docs section h4 {
   margin: 0;
   padding-left: 0.75rem;
   text-transform: uppercase;
   color: #d0d5b7;
-  font-size: 20px;
+  font-size: 1.5rem;
 }
-.sideNav .sideNav_docs section a {
+.sideNav.active .sideNav_docs section .sideNav_samples h4 {
+  cursor: pointer;
+}
+.sideNav.active .sideNav_docs section li {
+  padding-bottom: 0.5rem;
+}
+.sideNav.active .sideNav_docs section a {
   text-decoration: none;
   color: #d0d5b7;
-  font-size: 18px;
+  font-size: 1.25rem;
   transition: 0.5s all ease-in-out;
   padding-left: 1.5rem;
 }
-.sideNav .sideNav_docs section a:hover {
+.sideNav.active .sideNav_docs section a:hover {
   color: #BE4949;
   border-radius: 2px;
   border-left: 4px solid #BE4949;
 }
-.sideNav .sideNav_docs section a.active {
+.sideNav.active .sideNav_docs section a.active {
   color: #BE4949;
   transition: 0.3s;
   border-left: 2px solid #BE4949;
 }
-.sideNav .sideNav_docs section ul {
+.sideNav.active .sideNav_docs section ul {
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    left: 12vw;
+    width: 80vw;
+  }
+  .sideNav .sideNav_open {
+    width: 8vw;
+  }
+  .sideNav.active {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-right: none;
+    padding-top: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sideNav.active .sideNav_exit {
+    position: absolute;
+    top: 0.5rem;
+    font-size: 3rem;
+    right: 0;
+    width: fit-content;
+  }
+  .sideNav.active .sideNav_links {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 0;
+    border-bottom: none;
+    margin: 0;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    border-bottom: none;
+    width: 100%;
+    padding: 1rem;
+  }
+  .sideNav.active .sideNav_links a {
+    color: #d0d5b7;
+    text-decoration: none;
+    transition: 0.5s;
+    display: flex;
+    gap: 0.5vw;
+    font-weight: bold;
+    align-items: center;
+  }
+  .sideNav.active .sideNav_links a i {
+    font-size: 0.6em;
+  }
+  .sideNav.active .sideNav_links a:hover {
+    color: #BE4949;
+  }
+  .sideNav.active .sideNav_docs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    width: 100%;
+    padding: 1rem;
+  }
+  .sideNav.active .sideNav_docs section {
+    display: flex;
+    flex-direction: column;
+  }
+  .sideNav.active .sideNav_docs section ul {
+    padding: 0;
+  }
+  .sideNav.active .sideNav_docs section h4 {
+    margin: 0;
+    padding-left: 0.75rem;
+    text-transform: uppercase;
+    color: #d0d5b7;
+    font-size: 1.5rem;
+  }
+  .sideNav.active .sideNav_docs section .sideNav_samples h4 {
+    cursor: pointer;
+  }
+  .sideNav.active .sideNav_docs section a {
+    text-decoration: none;
+    color: #d0d5b7;
+    font-size: 1.25rem;
+    transition: 0.5s all ease-in-out;
+    padding-left: 1.5rem;
+  }
 }
 
 /*# sourceMappingURL=globals.css.map */

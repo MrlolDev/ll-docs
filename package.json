@@ -10,9 +10,12 @@
     "styles": "cd styles && sass -w scss:css"
   },
   "dependencies": {
+    "fs": "^0.0.1-security",
+    "markdown-it": "^13.0.1",
     "next": "12.2.4",
     "react": "18.2.0",
     "react-code-blocks": "^0.0.9-0",
+    "react-device-detect": "^2.2.2",
     "react-dom": "18.2.0"
   },
   "devDependencies": {

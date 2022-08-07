@@ -2,11 +2,11 @@ import Head from "next/head";
 import styles from "../styles/css/Home.module.css";
 import Script from "next/script";
 
-export default function Home() {
+export default function Changelog() {
   return (
     <div>
       <Head>
-        <title>Lolinck API</title>
+        <title>Lolinck API | 1.0.0</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Script
@@ -14,9 +14,7 @@ export default function Home() {
         crossOrigin="anonymous"
       ></Script>
       <main>
-        <h1>Introduction</h1>
-        <p></p>
-        <h1>Getting started</h1>
+        <h1>v1.0.0</h1>
         <p></p>
       </main>
     </div>
