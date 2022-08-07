@@ -27,7 +27,7 @@ export default function Sample(options) {
                 id={sample.name.replaceAll(" ", "-")}
               >
                 <h2>{capitalizeFirstLetter(sample.name)}</h2>
-                <Code code={sample.code} language={sample.name} />
+                <Code code={sample.code} language={sample.lang} />
               </div>
             ))}
           </div>
@@ -54,8 +54,9 @@ export async function getStaticProps() {
       path.join(process.cwd(), `samples/${file}`),
       "utf8"
     );
-    var lang = file.split(".")[0];
-    samples.push({ name: file.split(".")[0], code: code });
+    var name = file.split(".")[0];
+    var lang = file.split(".")[1];
+    samples.push({ name, code: code, lang: lang });
   });
   return {
     props: {

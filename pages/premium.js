@@ -14,7 +14,17 @@ export default function Premium() {
       ></Script>
       <main>
         <h1>Premium</h1>
-        <p>a</p>
+        <p>
+          We are going to offer a suscription of 2.99€ per month to people who
+          want to use the API in big proyects. The features included in the
+          suscription are:
+        </p>
+        <ul>
+          <li>No rate limit</li>
+          <li>Unlimited requests per month</li>
+          <li>Select if you want to use cache or not</li>
+          <li>Future access to the AI in the training process</li>
+        </ul>
       </main>
     </div>
   );

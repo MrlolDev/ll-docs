@@ -15,7 +15,12 @@ export default function Changelog() {
       ></Script>
       <main>
         <h1>v1.0.0</h1>
-        <p></p>
+        <p>This version can detect:</p>
+        <ul>
+          <li>NSFW</li>
+          <li>Malware</li>
+          <li>Ip loggers</li>
+        </ul>
       </main>
     </div>
   );

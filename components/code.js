@@ -3,7 +3,8 @@ import { CopyBlock, dracula } from "react-code-blocks";
 export default function Code(options) {
   var code = options.code;
   var language = options.language;
-  if (language == "golang") language = "go";
+  if (language == "ru") language = "ruby";
+  if (language == "rs") language = "rust";
   return (
     <CopyBlock
       language={language}
