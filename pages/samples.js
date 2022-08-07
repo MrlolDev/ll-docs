@@ -24,7 +24,7 @@ export default function Sample(options) {
               <div
                 className="sample_code_sample"
                 key={sample.name}
-                id={sample.name}
+                id={sample.name.replaceAll(" ", "-")}
               >
                 <h2>{capitalizeFirstLetter(sample.name)}</h2>
                 <Code code={sample.code} language={sample.name} />

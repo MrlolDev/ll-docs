@@ -84,7 +84,7 @@ export default function SideNav() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/samples#javascript">
+                    <Link href="/samples#javascript-option-1">
                       <a className="sideNav_link">JavaScript</a>
                     </Link>
                   </li>
@@ -94,7 +94,7 @@ export default function SideNav() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/samples#python">
+                    <Link href="/samples#python-option-1">
                       <a className="sideNav_link">Python</a>
                     </Link>
                   </li>
