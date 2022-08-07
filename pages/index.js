@@ -9,6 +9,30 @@ export default function Home() {
       <Head>
         <title>Lolinck API</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Lolinck is an open source API that use machine learning to detect if a website is
+          safe or not. Detect NSFW, phishing, malware, ip logging and more."
+        />
+        <meta
+          name="keywords"
+          content="lolinck, api, loick, loickteam, link api, link check"
+        />
+        <meta name="author" content="LoickTeam" />
+        <meta name="theme-color" content="#BE4949" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Lolinck API" />
+        <meta
+          property="og:description"
+          content="Lolinck is an open source API that use machine learning to detect if a website is
+          safe or not. Detect NSFW, phishing, malware, ip logging and more."
+        />
+
+        <meta property="og:url" content="https://lolinck.xyz" />
+        <meta property="og:site_name" content="Lolinck API" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="es_ES" />
       </Head>
       <Script
         src="https://kit.fontawesome.com/05bb22a118.js"
@@ -17,9 +41,10 @@ export default function Home() {
       <main>
         <h1>Introduction</h1>
         <p>
-          An open source API that use machine learning to detect if a website is
-          safe or not. Detect NSFW, phishing, malware, ip logging and more. This
-          API was powered by <a href="https://dsc.gg/loick">LoickTeam</a>.
+          Lolinck is an open source API that use machine learning to detect if a
+          website is safe or not. Detect NSFW, phishing, malware, ip logging and
+          more. This API was powered by{" "}
+          <a href="https://dsc.gg/loick">LoickTeam</a>.
         </p>
         <h2>How it works</h2>
         <p>
