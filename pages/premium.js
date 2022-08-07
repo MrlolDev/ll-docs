@@ -14,7 +14,7 @@ export default function Premium() {
       ></Script>
       <main>
         <h1>Premium</h1>
-        <p></p>
+        <p>a</p>
       </main>
     </div>
   );
