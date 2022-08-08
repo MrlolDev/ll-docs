@@ -13,7 +13,7 @@ export default function Changelog(options) {
     <div>
       <Head>
         <title>Lolinck API | {lastRelease.name}</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
       </Head>
       <Script
         src="https://kit.fontawesome.com/05bb22a118.js"

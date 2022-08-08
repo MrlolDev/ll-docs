@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Lolinck API</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"
@@ -30,6 +30,7 @@ export default function Home() {
         />
 
         <meta property="og:url" content="https://lolinck.xyz" />
+        <meta property="og:image" content="/logo.png" />
         <meta property="og:site_name" content="Lolinck API" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="es_ES" />
