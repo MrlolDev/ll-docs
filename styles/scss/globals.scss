@@ -180,6 +180,7 @@ main {
     }
   }
 
+
   &.active {
     width: 20vw;
     height: 100vh;
@@ -193,6 +194,13 @@ main {
     border-right: 2px solid v.$red_100;
     padding-top: .25rem;
     z-index: 1;
+
+    img.banner {
+      position: relative;
+      left: .75rem;
+      width: 14vw;
+      height: auto;
+    }
 
     .sideNav_exit {
       position: relative;

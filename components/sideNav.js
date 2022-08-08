@@ -8,12 +8,7 @@ export default function SideNav() {
       <aside className={`sideNav ${state}`}>
         {state == "active" ? (
           <>
-            <button
-              onClick={() => setState("Inactive")}
-              className="sideNav_exit"
-            >
-              <i className="fas fa-times"></i>
-            </button>
+            <img src="/banner.png" className="banner" alt="lolinck banner" />
             <div className="sideNav_close" onClick={() => setState("inactive")}>
               <button>
                 <i className="fas fa-chevron-left"></i>

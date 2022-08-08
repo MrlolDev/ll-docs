@@ -166,6 +166,12 @@ main a:hover {
   padding-top: 0.25rem;
   z-index: 1;
 }
+.sideNav.active img.banner {
+  position: relative;
+  left: 0.75rem;
+  width: 14vw;
+  height: auto;
+}
 .sideNav.active .sideNav_exit {
   position: relative;
   left: 12.5vw;
