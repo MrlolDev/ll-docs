@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 export default function SideNav() {
-  var [state, setState] = useState("active");
+  var [state, setState] = useState("inactive");
   return (
     <>
       <aside className={`sideNav ${state}`}>
