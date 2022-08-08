@@ -22,7 +22,7 @@ export default function Premium() {
         <ul>
           <li>No rate limit</li>
           <li>Unlimited requests per month</li>
-          <li>Select if you want to use cache or not</li>
+          <li>Select if you want to use cache or check in real time</li>
           <li>Future access to the AI in the training process</li>
         </ul>
       </main>

@@ -43,8 +43,8 @@ export default function Home() {
         <p>
           Lolinck is an open source API that use machine learning to detect if a
           website is safe or not. Detect NSFW, phishing, malware, ip logging and
-          more. This API was powered by{" "}
-          <a href="https://dsc.gg/loick">LoickTeam</a>.
+          more. This API was powered by
+          <a href="https://dsc.gg/loick"> LoickTeam</a>.
         </p>
         <h2>How it works</h2>
         <p>
@@ -60,9 +60,9 @@ export default function Home() {
           limit for free users. If you are a free user you can only make a
           request 1 time per 2 seconds., and 1million requests per month. If you
           want to remove this limit you can buy a premium plan. If you want to
-          know about our premium tier check{" "}
+          know about our premium tier check visit
           <Link href="/premium">
-            <a>the next page</a>
+            <a> the next page</a>
           </Link>
           .
         </p>
