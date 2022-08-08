@@ -136,7 +136,7 @@ main a:hover {
 }
 .sideNav.active .sideNav_exit {
   position: relative;
-  left: 0.25rem;
+  left: 12.5vw;
   font-size: 1.5rem;
   cursor: pointer;
   transition: all 0.3s;

@@ -42,7 +42,7 @@ export default function SideNav() {
                   </li>
                   <li>
                     <Link href="/changelog">
-                      <a className="sideNav_link">Updates</a>
+                      <a className="sideNav_link">Changelog</a>
                     </Link>
                   </li>
                 </ul>
