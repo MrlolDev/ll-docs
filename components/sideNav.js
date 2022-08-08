@@ -14,6 +14,11 @@ export default function SideNav() {
             >
               <i className="fas fa-times"></i>
             </button>
+            <div className="sideNav_close" onClick={() => setState("inactive")}>
+              <button>
+                <i className="fas fa-chevron-left"></i>
+              </button>
+            </div>
             <ul className="sideNav_links">
               <li>
                 <a href="https://github.com/L" className="sideNav_link">
