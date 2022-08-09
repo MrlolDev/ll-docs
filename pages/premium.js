@@ -8,10 +8,7 @@ export default function Premium() {
         <title>Lolinck API | Premium</title>
         <link rel="icon" href="/logo.png" />
       </Head>
-      <Script
-        src="https://kit.fontawesome.com/05bb22a118.js"
-        crossOrigin="anonymous"
-      ></Script>
+
       <main>
         <h1>Premium</h1>
         <p>

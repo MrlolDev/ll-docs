@@ -36,10 +36,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="es_ES" />
       </Head>
-      <Script
-        src="https://kit.fontawesome.com/05bb22a118.js"
-        crossOrigin="anonymous"
-      ></Script>
+
       <main>
         <h1>Introduction</h1>
         <p>
@@ -59,10 +56,10 @@ export default function Home() {
           We have a lot of samples for the most famous programming languages. We
           also have libraries por python and for nodejs. Or you can only make a
           simple request to our API. However you have to know that we put a
-          limit for free users. If you are a free user you can only make a
-          request 1 time per 2 seconds., and 1million requests per month. If you
-          want to remove this limit you can buy a premium plan. If you want to
-          know about our premium tier check visit
+          limit for free users. If you are a free user you can only make 1
+          request per 2 seconds., and 1million requests per month. If you want
+          to remove this limit you can buy a premium plan. If you want to know
+          about our premium tier check visit
           <Link href="/premium">
             <a> the next page</a>
           </Link>

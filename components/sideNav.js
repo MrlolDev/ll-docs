@@ -16,12 +16,22 @@ export default function SideNav() {
             </div>
             <ul className="sideNav_links">
               <li>
-                <a href="https://github.com/L" className="sideNav_link">
+                <a
+                  href="https://github.com/TeamLoick"
+                  className="sideNav_link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Github <i className="fa-solid fa-up-right-from-square"></i>
                 </a>
               </li>
               <li>
-                <a href="https://dsc.gg/loick" className="sideNav_link">
+                <a
+                  href="https://dsc.gg/loick"
+                  className="sideNav_link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Discord <i className="fa-solid fa-up-right-from-square"></i>
                 </a>
               </li>

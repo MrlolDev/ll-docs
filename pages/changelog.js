@@ -15,10 +15,7 @@ export default function Changelog(options) {
         <title>Lolinck API | {lastRelease.name}</title>
         <link rel="icon" href="/logo.png" />
       </Head>
-      <Script
-        src="https://kit.fontawesome.com/05bb22a118.js"
-        crossOrigin="anonymous"
-      ></Script>
+
       <main>
         <h1>v{lastRelease.name}</h1>
         <article
