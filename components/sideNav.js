@@ -46,6 +46,11 @@ export default function SideNav() {
                     </Link>
                   </li>
                   <li>
+                    <Link href="/how-it-works">
+                      <a className="sideNav_link">How it works</a>
+                    </Link>
+                  </li>
+                  <li>
                     <Link href="/premium">
                       <a className="sideNav_link">Premium</a>
                     </Link>

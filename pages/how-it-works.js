@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Lolinck API</title>
+        <title>Lolinck API | How it works</title>
         <link rel="icon" href="/logo.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
@@ -38,26 +38,18 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Introduction</h1>
+        <h1>How it works</h1>
         <p>
-          Lolinck is an open source API that use machine learning to detect if a
-          website is safe or not. Detect NSFW, phishing, malware, ip logging and
-          more. This API was powered by
-          <a href="https://dsc.gg/loick"> LoickTeam</a>.
-        </p>
-        <h2>Getting started</h2>
-        <p>
-          We have a lot of samples for the most famous programming languages. We
-          also have libraries por python and for nodejs. Or you can only make a
-          simple request to our API. However you have to know that we put a
-          limit for free users. If you are a free user you can only make 1
-          request per 2 seconds., and 1million requests per month. If you want
-          to remove this limit you can buy a premium plan. If you want to know
-          about our premium tier check visit
-          <Link href="/premium">
-            <a> the next page</a>
-          </Link>
-          .
+          The API use 3 methods to detect if a website is safe or not. <br />
+          <b>The first method</b>
+          is check in our db that we expand with the results of other methods.
+          This db has also content from public dbs. <br />
+          <b>The second method</b> is the logical method where we check the
+          content of the page, the headers and all the information about the
+          page to give a results. <br />
+          And <b>the third method</b> that is continue under development is the
+          AI that have been trained with a lot of data from our db to detect if
+          a website is safe or not.
         </p>
       </main>
     </div>
