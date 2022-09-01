@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   overflow-x: hidden;
@@ -19,7 +19,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #BE4949;
+  background: #be4949;
 }
 ::-webkit-scrollbar-thumb:hover {
   filter: brightness(1.2);
@@ -41,7 +41,7 @@ main h1 {
   transition: all 0.3s;
 }
 main h1:hover {
-  color: #BE4949;
+  color: #be4949;
 }
 main h2 {
   font-size: 2rem;
@@ -50,7 +50,7 @@ main h2 {
   transition: all 0.3s;
 }
 main h2:hover {
-  color: #BE4949;
+  color: #be4949;
 }
 main h3 {
   font-size: 1.75rem;
@@ -59,7 +59,7 @@ main h3 {
   transition: all 0.3s;
 }
 main h3:hover {
-  color: #BE4949;
+  color: #be4949;
 }
 main h4 {
   font-size: 1.5rem;
@@ -68,7 +68,7 @@ main h4 {
   transition: all 0.3s;
 }
 main h4:hover {
-  color: #BE4949;
+  color: #be4949;
 }
 main p {
   font-size: 1.25rem;
@@ -79,7 +79,7 @@ main ul {
   font-size: 1.25rem;
 }
 main a {
-  color: #BE4949;
+  color: #be4949;
   text-decoration: none;
   transition: all 0.3s;
 }
@@ -100,7 +100,7 @@ main a:hover {
   transition: all 0.3s;
   color: #d0d5b7;
   border-top-right-radius: 20rem;
-  border-right: 2px solid #BE4949;
+  border-right: 2px solid #be4949;
   border-bottom-right-radius: 20rem;
   display: flex;
   justify-content: center;
@@ -132,7 +132,7 @@ main a:hover {
   transition: all 0.3s;
   color: #d0d5b7;
   border-top-left-radius: 20rem;
-  border-left: 2px solid #BE4949;
+  border-left: 2px solid #be4949;
   border-bottom-left-radius: 20rem;
   display: flex;
   justify-content: center;
@@ -162,7 +162,7 @@ main a:hover {
   left: 0;
   overflow-y: auto;
   padding-bottom: 2rem;
-  border-right: 2px solid #BE4949;
+  border-right: 2px solid #be4949;
   padding-top: 0.25rem;
   z-index: 1;
 }
@@ -181,10 +181,10 @@ main a:hover {
   background: none;
   outline: none;
   border: none;
-  color: #9C3636;
+  color: #9c3636;
 }
 .sideNav.active .sideNav_exit:hover {
-  color: #BE4949;
+  color: #be4949;
 }
 .sideNav.active ul {
   list-style: none;
@@ -193,7 +193,7 @@ main a:hover {
 }
 .sideNav.active .sideNav_links {
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid #BE4949;
+  border-bottom: 1px solid #be4949;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -214,7 +214,7 @@ main a:hover {
   font-size: 0.6em;
 }
 .sideNav.active .sideNav_links a:hover {
-  color: #BE4949;
+  color: #be4949;
 }
 .sideNav.active .sideNav_docs {
   display: flex;
@@ -240,7 +240,7 @@ main a:hover {
   transition: 0.3s all;
 }
 .sideNav.active .sideNav_docs section .sideNav_samples h4:hover {
-  color: #BE4949;
+  color: #be4949;
 }
 .sideNav.active .sideNav_docs section li {
   padding-bottom: 0.5rem;
@@ -253,14 +253,14 @@ main a:hover {
   padding-left: 1.5rem;
 }
 .sideNav.active .sideNav_docs section a:hover {
-  color: #BE4949;
+  color: #be4949;
   border-radius: 2px;
-  border-left: 4px solid #BE4949;
+  border-left: 4px solid #be4949;
 }
 .sideNav.active .sideNav_docs section a.active {
-  color: #BE4949;
+  color: #be4949;
   transition: 0.3s;
-  border-left: 2px solid #BE4949;
+  border-left: 2px solid #be4949;
 }
 .sideNav.active .sideNav_docs section ul {
   margin: 0;
@@ -286,7 +286,7 @@ main a:hover {
     transition: all 0.3s;
     color: #d0d5b7;
     border-top-left-radius: 20rem;
-    border-left: 2px solid #BE4949;
+    border-left: 2px solid #be4949;
     border-bottom-left-radius: 20rem;
     display: flex;
     justify-content: center;

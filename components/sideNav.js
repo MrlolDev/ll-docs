@@ -1,15 +1,16 @@
-import Link from "next/link";
-import { useState } from "react";
+import Image from 'next/image';
+import Link from 'next/link';
+import { useState } from 'react';
 
 export default function SideNav() {
-  var [state, setState] = useState("inactive");
+  var [state, setState] = useState('inactive');
   return (
     <>
       <aside className={`sideNav ${state}`}>
-        {state == "active" ? (
+        {state == 'active' ? (
           <>
-            <img src="/banner.png" className="banner" alt="lolinck banner" />
-            <div className="sideNav_close" onClick={() => setState("inactive")}>
+            <Image src="/banner.png" className="banner" alt="lolinck banner" />
+            <div className="sideNav_close" onClick={() => setState('inactive')}>
               <button>
                 <i className="fas fa-chevron-left"></i>
               </button>
@@ -133,7 +134,7 @@ export default function SideNav() {
             </div>
           </>
         ) : (
-          <div className="sideNav_open" onClick={() => setState("active")}>
+          <div className="sideNav_open" onClick={() => setState('active')}>
             <button>
               <i className="fas fa-chevron-right"></i>
             </button>
