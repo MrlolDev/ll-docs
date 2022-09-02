@@ -1,10 +1,10 @@
-import Head from "next/head";
-import styles from "../styles/css/Home.module.css";
-import Script from "next/script";
-import showdown from "showdown";
+import Head from 'next/head';
+import styles from '../styles/css/Home.module.css';
+import Script from 'next/script';
+import showdown from 'showdown';
 const converter = new showdown.Converter();
-import createDomPurify from "dompurify";
-import { JSDOM } from "jsdom";
+import createDomPurify from 'dompurify';
+import { JSDOM } from 'jsdom';
 const dompurify = createDomPurify(new JSDOM().window);
 
 export default function Changelog(options) {
@@ -29,15 +29,15 @@ export default function Changelog(options) {
 
 export async function getStaticProps() {
   var releases = await fetch(
-    "https://api.github.com/repos/TeamLoick/ll-api/releases"
+    'https://api.github.com/repos/TeamLoick/ll-api/releases',
   );
   releases = await releases.json();
   if (releases.length < 1) {
     return {
       props: {
         lastRelease: {
-          name: "0.0.0",
-          content: "<p>No release found</p>",
+          name: '0.0.0',
+          content: '<p>No release found</p>',
         },
       },
     };
@@ -48,7 +48,7 @@ export async function getStaticProps() {
   // detect links and put inside a tag
   content = content.replace(
     /((http|https|ftp):\/\/[\w-]+(\.[\w-]+)+([\w.,@?^=%&amp;:/~+#-]*[\w@?^=%&amp;/~+#-])?)/g,
-    '<a href="$1">$1</a>'
+    '<a href="$1">$1</a>',
   );
   lastRelease.content = content;
   return {

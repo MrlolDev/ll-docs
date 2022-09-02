@@ -6,8 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "styles": "cd styles && sass -w scss:css"
+    "styles": "cd styles && sass -w scss:css",
+    "format": "prettier --write .  &&  eslint --fix .",
+    "lint": "prettier --check . && eslint --ignore-path .gitignore ."
   },
   "dependencies": {
     "dompurify": "^2.3.10",
@@ -25,6 +26,7 @@
   "devDependencies": {
     "eslint": "8.21.0",
     "eslint-config-next": "12.2.4",
+    "prettier": "2.7.1",
     "sass": "^1.54.3"
   }
 }

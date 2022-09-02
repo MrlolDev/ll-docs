@@ -1,8 +1,8 @@
-import Code from "../components/code";
-import Head from "next/head";
-import { useState, useEffect } from "react";
-import fs from "fs";
-import path from "path";
+import Code from '../components/code';
+import Head from 'next/head';
+import { useState, useEffect } from 'react';
+import fs from 'fs';
+import path from 'path';
 export default function Sample(options) {
   var [Samples, setSamples] = useState(options.samples);
   function capitalizeFirstLetter(str) {
@@ -24,7 +24,7 @@ export default function Sample(options) {
               <div
                 className="sample_code_sample"
                 key={sample.name}
-                id={sample.name.replaceAll(" ", "-")}
+                id={sample.name.replaceAll(' ', '-')}
               >
                 <h2>{capitalizeFirstLetter(sample.name)}</h2>
                 <Code code={sample.code} language={sample.lang} />
@@ -48,14 +48,14 @@ export default function Sample(options) {
 }
 export async function getStaticProps() {
   var samples = [];
-  var files = fs.readdirSync(path.join(process.cwd(), "samples"));
+  var files = fs.readdirSync(path.join(process.cwd(), 'samples'));
   files.forEach((file) => {
     var code = fs.readFileSync(
       path.join(process.cwd(), `samples/${file}`),
-      "utf8"
+      'utf8',
     );
-    var name = file.split(".")[0];
-    var lang = file.split(".")[1];
+    var name = file.split('.')[0];
+    var lang = file.split('.')[1];
     samples.push({ name, code: code, lang: lang });
   });
   return {
