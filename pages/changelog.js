@@ -1,6 +1,4 @@
 import Head from 'next/head';
-import styles from '../styles/css/Home.module.css';
-import Script from 'next/script';
 import showdown from 'showdown';
 const converter = new showdown.Converter();
 import createDomPurify from 'dompurify';

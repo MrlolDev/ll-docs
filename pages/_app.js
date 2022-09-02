@@ -1,7 +1,6 @@
 import '../styles/css/globals.css';
 import SideNav from '../components/sideNav';
 import Head from 'next/head';
-import Script from 'next/script';
 export default function Lolinck({ Component, pageProps }) {
   return (
     <>

@@ -1,10 +1,10 @@
 import Code from '../components/code';
 import Head from 'next/head';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import fs from 'fs';
 import path from 'path';
 export default function Sample(options) {
-  var [Samples, setSamples] = useState(options.samples);
+  var [Samples] = useState(options.samples);
   function capitalizeFirstLetter(str) {
     // converting first letter to uppercase
     const capitalized = str.charAt(0).toUpperCase() + str.slice(1);
