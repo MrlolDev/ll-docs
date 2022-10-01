@@ -1,0 +1,23 @@
+{
+  "unversionedId": "samples/python",
+  "id": "samples/python",
+  "title": "python",
+  "description": "",
+  "source": "@site/docs/samples/python.md",
+  "sourceDirName": "samples",
+  "slug": "/samples/python",
+  "permalink": "/lolinck-docs/docs/samples/python",
+  "draft": false,
+  "editUrl": "https://github.com/TeamLoick/lolinck-docs/tree/development/docs/samples/python.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Javascript Samples",
+    "permalink": "/lolinck-docs/docs/samples/javascript"
+  }
+}

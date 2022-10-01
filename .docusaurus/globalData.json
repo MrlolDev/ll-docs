@@ -1,0 +1,48 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/lolinck-docs/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/lolinck-docs/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/lolinck-docs/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Samples/javascript",
+              "path": "/lolinck-docs/docs/Samples/javascript",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Samples/other",
+              "path": "/lolinck-docs/docs/Samples/other",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Samples/python",
+              "path": "/lolinck-docs/docs/Samples/python",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/lolinck-docs/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Introduction",
+        "href": "/lolinck-docs/docs/intro",
+        "docId": "intro"
+      },
+      {
+        "type": "category",
+        "label": "Samples",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Javascript Samples",
+            "href": "/lolinck-docs/docs/Samples/javascript",
+            "docId": "Samples/javascript"
+          },
+          {
+            "type": "link",
+            "label": "Python Samples",
+            "href": "/lolinck-docs/docs/Samples/python",
+            "docId": "Samples/python"
+          },
+          {
+            "type": "link",
+            "label": "Other Samples",
+            "href": "/lolinck-docs/docs/Samples/other",
+            "docId": "Samples/other"
+          }
+        ]
+      }
+    ]
+  },
+  "docs": {
+    "intro": {
+      "id": "intro",
+      "title": "Introduction",
+      "description": "Lolinck is an open source API that use machine learning to detect if a",
+      "sidebar": "tutorialSidebar"
+    },
+    "Samples/javascript": {
+      "id": "Samples/javascript",
+      "title": "Javascript Samples",
+      "description": "You can use the api with javascript using the library we created.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Samples/other": {
+      "id": "Samples/other",
+      "title": "Other Samples",
+      "description": "You can only make a http request to",
+      "sidebar": "tutorialSidebar"
+    },
+    "Samples/python": {
+      "id": "Samples/python",
+      "title": "Python Samples",
+      "description": "You can use the api with python using the library we created.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

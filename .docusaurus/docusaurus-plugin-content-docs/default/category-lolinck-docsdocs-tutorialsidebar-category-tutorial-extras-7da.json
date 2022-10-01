@@ -1,0 +1,15 @@
+{
+  "title": "Tutorial - Extras",
+  "slug": "/category/tutorial---extras",
+  "permalink": "/lolinck-docs/docs/category/tutorial---extras",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/lolinck-docs/docs/intro"
+    },
+    "next": {
+      "title": "Manage Docs Versions",
+      "permalink": "/lolinck-docs/docs/tutorial-extras/manage-docs-versions"
+    }
+  }
+}

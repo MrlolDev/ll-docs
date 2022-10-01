@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Samples/python",
+  "id": "Samples/python",
+  "title": "Python Samples",
+  "description": "You can use the api with python using the library we created.",
+  "source": "@site/docs/Samples/python.md",
+  "sourceDirName": "Samples",
+  "slug": "/Samples/python",
+  "permalink": "/lolinck-docs/docs/Samples/python",
+  "draft": false,
+  "editUrl": "https://github.com/TeamLoick/lolinck-docs/tree/development/docs/Samples/python.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Javascript Samples",
+    "permalink": "/lolinck-docs/docs/Samples/javascript"
+  },
+  "next": {
+    "title": "Other Samples",
+    "permalink": "/lolinck-docs/docs/Samples/other"
+  }
+}

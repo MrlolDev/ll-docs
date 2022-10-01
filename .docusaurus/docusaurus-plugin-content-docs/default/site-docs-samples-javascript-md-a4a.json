@@ -1,0 +1,27 @@
+{
+  "unversionedId": "samples/javascript",
+  "id": "samples/javascript",
+  "title": "Javascript Samples",
+  "description": "You can use the api with javascript using the library we created.",
+  "source": "@site/docs/samples/javascript.md",
+  "sourceDirName": "samples",
+  "slug": "/samples/javascript",
+  "permalink": "/lolinck-docs/docs/samples/javascript",
+  "draft": false,
+  "editUrl": "https://github.com/TeamLoick/lolinck-docs/tree/development/docs/samples/javascript.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/lolinck-docs/docs/intro"
+  },
+  "next": {
+    "title": "python",
+    "permalink": "/lolinck-docs/docs/samples/python"
+  }
+}

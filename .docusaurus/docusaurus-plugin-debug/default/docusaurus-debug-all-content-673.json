@@ -1,0 +1,189 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/lolinck-docs/docs",
+          "tagsPath": "/lolinck-docs/docs/tags",
+          "editUrl": "https://github.com/TeamLoick/lolinck-docs/tree/development/docs",
+          "editUrlLocalized": "https://github.com/TeamLoick/lolinck-docs/tree/development/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "D:\\projects\\loick.team\\projects\\archived\\lolinck\\dev\\lolinck-docs\\sidebars.js",
+          "contentPath": "D:\\projects\\loick.team\\projects\\archived\\lolinck\\dev\\lolinck-docs\\docs",
+          "contentPathLocalized": "D:\\projects\\loick.team\\projects\\archived\\lolinck\\dev\\lolinck-docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "title": "Introduction",
+              "description": "Lolinck is an open source API that use machine learning to detect if a",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/lolinck-docs/docs/intro",
+              "draft": false,
+              "editUrl": "https://github.com/TeamLoick/lolinck-docs/tree/development/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Javascript Samples",
+                "permalink": "/lolinck-docs/docs/Samples/javascript"
+              }
+            },
+            {
+              "unversionedId": "Samples/javascript",
+              "id": "Samples/javascript",
+              "title": "Javascript Samples",
+              "description": "You can use the api with javascript using the library we created.",
+              "source": "@site/docs/Samples/javascript.md",
+              "sourceDirName": "Samples",
+              "slug": "/Samples/javascript",
+              "permalink": "/lolinck-docs/docs/Samples/javascript",
+              "draft": false,
+              "editUrl": "https://github.com/TeamLoick/lolinck-docs/tree/development/docs/Samples/javascript.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/lolinck-docs/docs/intro"
+              },
+              "next": {
+                "title": "Python Samples",
+                "permalink": "/lolinck-docs/docs/Samples/python"
+              }
+            },
+            {
+              "unversionedId": "Samples/other",
+              "id": "Samples/other",
+              "title": "Other Samples",
+              "description": "You can only make a http request to",
+              "source": "@site/docs/Samples/other.md",
+              "sourceDirName": "Samples",
+              "slug": "/Samples/other",
+              "permalink": "/lolinck-docs/docs/Samples/other",
+              "draft": false,
+              "editUrl": "https://github.com/TeamLoick/lolinck-docs/tree/development/docs/Samples/other.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Python Samples",
+                "permalink": "/lolinck-docs/docs/Samples/python"
+              }
+            },
+            {
+              "unversionedId": "Samples/python",
+              "id": "Samples/python",
+              "title": "Python Samples",
+              "description": "You can use the api with python using the library we created.",
+              "source": "@site/docs/Samples/python.md",
+              "sourceDirName": "Samples",
+              "slug": "/Samples/python",
+              "permalink": "/lolinck-docs/docs/Samples/python",
+              "draft": false,
+              "editUrl": "https://github.com/TeamLoick/lolinck-docs/tree/development/docs/Samples/python.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Javascript Samples",
+                "permalink": "/lolinck-docs/docs/Samples/javascript"
+              },
+              "next": {
+                "title": "Other Samples",
+                "permalink": "/lolinck-docs/docs/Samples/other"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Samples",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Samples/javascript"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Samples/python"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Samples/other"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/lolinck-docs/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/lolinck-docs/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/lolinck-docs/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

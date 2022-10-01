@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Samples/other",
+  "id": "Samples/other",
+  "title": "Other Samples",
+  "description": "You can only make a http request to",
+  "source": "@site/docs/Samples/other.md",
+  "sourceDirName": "Samples",
+  "slug": "/Samples/other",
+  "permalink": "/lolinck-docs/docs/Samples/other",
+  "draft": false,
+  "editUrl": "https://github.com/TeamLoick/lolinck-docs/tree/development/docs/Samples/other.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Python Samples",
+    "permalink": "/lolinck-docs/docs/Samples/python"
+  }
+}
